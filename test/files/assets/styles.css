@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+html {
+    -webkit-print-color-adjust: exact;
+}
+body {
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.007mm;
+    margin: 0;
+}
+
+@media print {
+    @page {
+        size: A4 portrait;
+        margin: 0;
+    }
+}
+
+.page {
+    background-image: url("background.svg");
+    background-size: 21cm 29.7cm;
+    height: 29.7cm;
+    width: 21cm;
+    box-sizing: border-box;
+}
+
+.title {
+    margin: 0;
+    font-size: 31pt;
+    font-weight: bold;
+    height: 15mm;
+    color: #263369;
+}
+
+.copyright {
+    font-style: italic;
+}

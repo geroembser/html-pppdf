@@ -1,0 +1,27 @@
+######
+###### Typescript / Node stuff
+######
+node_modules
+
+######
+###### VSCode stuff
+######
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+
+######
+###### Project specific gitignore
+######
+# Ignore build folder
+build/**/*
+# Ignore dist/lib folder
+dist/**/*
+lib/**/*
+# Ignore output folder that is likely to be used as the output for some test pdfs
+output/**/*

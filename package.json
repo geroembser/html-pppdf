@@ -1,0 +1,30 @@
+{
+    "name": "html-pppdf",
+    "version": "1.0.0",
+    "description": "Generate simple PDF files from simple html files by using puppeteer.",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "ts-node ./test/test.ts",
+        "prepare": "npm run build"
+    },
+    "author": "Gero Embser",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/fs-extra": "^9.0.6",
+        "@types/puppeteer": "^5.4.2",
+        "@types/tmp": "^0.2.0",
+        "prettier": "2.2.1",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.1.3"
+    },
+    "dependencies": {
+        "fs-extra": "^9.1.0",
+        "puppeteer": "^5.5.0",
+        "tmp": "^0.2.1"
+    },
+    "files": [
+        "lib/**/*"
+    ]
+}
