@@ -37,3 +37,5 @@ export async function generatePDF(htmlPath: string, options: Options): Promise<B
 
     return pdfBuffer;
 }
+
+export { setupBrowser, closeBrowser } from "./generate";
